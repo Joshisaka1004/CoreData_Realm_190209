@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3B7F86EB220F7F5200121F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F86EA220F7F5200121F4D /* AppDelegate.swift */; };
-		3B7F86ED220F7F5200121F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F86EC220F7F5200121F4D /* ViewController.swift */; };
+		3B7F86ED220F7F5200121F4D /* ToDoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F86EC220F7F5200121F4D /* ToDoListVC.swift */; };
 		3B7F86F0220F7F5200121F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7F86EE220F7F5200121F4D /* Main.storyboard */; };
 		3B7F86F3220F7F5200121F4D /* CoreData_Realm_190209.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F86F1220F7F5200121F4D /* CoreData_Realm_190209.xcdatamodeld */; };
 		3B7F86F5220F7F5300121F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7F86F4220F7F5300121F4D /* Assets.xcassets */; };
 		3B7F86F8220F7F5300121F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7F86F6220F7F5300121F4D /* LaunchScreen.storyboard */; };
+		3B7F8700220F803300121F4D /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F86FF220F803300121F4D /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B7F86E7220F7F5200121F4D /* CoreData_Realm_190209.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData_Realm_190209.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7F86EA220F7F5200121F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B7F86EC220F7F5200121F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B7F86EC220F7F5200121F4D /* ToDoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListVC.swift; sourceTree = "<group>"; };
 		3B7F86EF220F7F5200121F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B7F86F2220F7F5200121F4D /* CoreData_Realm_190209.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_Realm_190209.xcdatamodel; sourceTree = "<group>"; };
 		3B7F86F4220F7F5300121F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7F86F7220F7F5300121F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7F86F9220F7F5300121F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7F86FF220F803300121F4D /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3B7F86EA220F7F5200121F4D /* AppDelegate.swift */,
-				3B7F86EC220F7F5200121F4D /* ViewController.swift */,
 				3B7F86EE220F7F5200121F4D /* Main.storyboard */,
+				3B7F86EC220F7F5200121F4D /* ToDoListVC.swift */,
+				3B7F86FF220F803300121F4D /* DetailVC.swift */,
 				3B7F86F4220F7F5300121F4D /* Assets.xcassets */,
 				3B7F86F6220F7F5300121F4D /* LaunchScreen.storyboard */,
 				3B7F86F9220F7F5300121F4D /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7F86ED220F7F5200121F4D /* ViewController.swift in Sources */,
+				3B7F86ED220F7F5200121F4D /* ToDoListVC.swift in Sources */,
+				3B7F8700220F803300121F4D /* DetailVC.swift in Sources */,
 				3B7F86F3220F7F5200121F4D /* CoreData_Realm_190209.xcdatamodeld in Sources */,
 				3B7F86EB220F7F5200121F4D /* AppDelegate.swift in Sources */,
 			);
