@@ -10,8 +10,10 @@ import UIKit
 
 class DetailVC: UITableViewController {
 
+    var test: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(test)
     }
 }
